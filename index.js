@@ -3,11 +3,6 @@ const util = require('util');
 const path = require("path");
 const inquirer = require('inquirer');
 
-const genData = require("./lib/genData.js")
-const description = require("./lib/description.js");
-const textwalls = require("./lib/textwalls.js");
-const credits = require("./lib/credits.js");
-const licenseNBadges = require("./lib/licenseNBadges.js");
 const generateMD = require("./lib/generateMD.js");
 
 function welcomeMsg() {
